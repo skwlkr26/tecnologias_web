@@ -24,7 +24,7 @@ app.use('/api/items', crudRoutes);
 app.use('/api/protected-items', protectedCrudRoutes);
 
 // Fallback para SPA (Angular)
-app.get('/*', (req, res) => {
+app.get(/.*/, (req, res) => {
   res.sendFile(path.join(__dirname, '../public/index.html'));
 });
 
