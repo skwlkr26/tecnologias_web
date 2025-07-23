@@ -13,7 +13,7 @@ export interface Item {
   providedIn: 'root'
 })
 export class Crud {
-  private api = 'https://tecnologias-web-omega.vercel.app/api/protected-items';
+  private api = '/api/protected-items';
 
   constructor(private http: HttpClient, private auth: Auth) {}
 

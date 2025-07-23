@@ -6,7 +6,7 @@ import { Observable, tap } from 'rxjs';
   providedIn: 'root'
 })
 export class Auth {
-  private api = 'https://tecnologias-web-omega.vercel.app/api/auth';
+  private api = '/api/auth';
 
   constructor(private http: HttpClient) {}
 
