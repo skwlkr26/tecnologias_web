@@ -1,0 +1,82 @@
+// Estilo moderno y atractivo para login
+.login-container {
+  max-width: 350px;
+  margin: 3rem auto;
+  padding: 2.5rem 2rem 2rem 2rem;
+  background: #fff;
+  border-radius: 12px;
+  box-shadow: 0 4px 24px rgba(44, 62, 80, 0.10);
+  text-align: center;
+}
+
+.login-container h2 {
+  color: #6c63ff;
+  margin-bottom: 1.5rem;
+}
+
+.form-group {
+  margin-bottom: 1.2rem;
+  text-align: left;
+}
+
+.form-group label {
+  display: block;
+  margin-bottom: 0.3rem;
+  color: #444;
+  font-weight: 500;
+}
+
+.form-group input {
+  width: 100%;
+  padding: 0.6rem 0.8rem;
+  border: 1px solid #d1d1d1;
+  border-radius: 6px;
+  font-size: 1rem;
+  background: #f8f8ff;
+  transition: border 0.2s;
+}
+.form-group input:focus {
+  border-color: #6c63ff;
+  outline: none;
+}
+
+button[type="submit"] {
+  width: 100%;
+  background: #6c63ff;
+  color: #fff;
+  border: none;
+  border-radius: 6px;
+  padding: 0.7rem;
+  font-size: 1.1rem;
+  font-weight: 600;
+  margin-bottom: 0.7rem;
+  cursor: pointer;
+  transition: background 0.2s;
+}
+button[type="submit"]:hover {
+  background: #554ee2;
+}
+
+.register-btn {
+  width: 100%;
+  background: #fff;
+  color: #6c63ff;
+  border: 1px solid #6c63ff;
+  border-radius: 6px;
+  padding: 0.7rem;
+  font-size: 1.1rem;
+  font-weight: 600;
+  margin-bottom: 0.7rem;
+  cursor: pointer;
+  transition: background 0.2s, color 0.2s;
+}
+.register-btn:hover {
+  background: #6c63ff;
+  color: #fff;
+}
+
+.error {
+  color: #e74c3c;
+  margin-top: 0.7rem;
+  font-size: 0.98rem;
+}
